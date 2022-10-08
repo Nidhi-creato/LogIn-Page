@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="244.0" style="-fx-background-color: ffa500;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="33.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@code.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="27.0" layoutY="252.0" prefHeight="39.0" prefWidth="150.0" text="Contact: 1800-220-220">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="43.0" layoutY="298.0" prefHeight="39.0" prefWidth="139.0" text="www.Codefix.com">
+               <font>
+                  <Font name="Arial Black" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="400.0" prefWidth="410.0">
+         <children>
+            <Label layoutX="92.0" prefHeight="70.0" prefWidth="180.0" text="Knowledge Builds" textFill="#20339c">
+               <font>
+                  <Font name="Arial Black" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="41.0" layoutY="155.0" prefHeight="39.0" prefWidth="218.0" text="Username">
+               <font>
+                  <Font name="Arial Black" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="41.0" layoutY="206.0" prefHeight="50.0" prefWidth="121.0" text="Password ">
+               <font>
+                  <Font name="Arial Black" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tf_username" layoutX="144.0" layoutY="155.0" prefHeight="39.0" prefWidth="186.0">
+               <font>
+                  <Font name="Arial Black" size="14.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="tf_password" layoutX="145.0" layoutY="213.0" prefHeight="39.0" prefWidth="186.0">
+               <font>
+                  <Font name="Arial Black" size="14.0" />
+               </font>
+            </TextField>
+            <Label layoutX="170.0" layoutY="43.0" prefHeight="39.0" prefWidth="87.0" text="The" textFill="#20339c">
+               <font>
+                  <Font name="Arial Black" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="150.0" layoutY="70.0" prefHeight="39.0" prefWidth="150.0" text="Future" textFill="#20339c">
+               <font>
+                  <Font name="Arial Black" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="button_login" layoutX="110.0" layoutY="294.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="164.0" style="-fx-background-color: ffa500;" text="Login">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>
